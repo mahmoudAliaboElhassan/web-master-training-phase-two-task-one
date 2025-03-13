@@ -5,12 +5,15 @@
   margin: 0;
 }
 
+:root {
+  --gray: #545454;
+}
+
 body {
   color: #1f1f1f;
 }
 html {
   scroll-behavior: smooth;
-  --gray: #545454;
 }
 p {
   color: var(--gray);
